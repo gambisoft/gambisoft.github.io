@@ -283,6 +283,28 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
             }
           }
+        },
+        {
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-5",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
         }
       ]
     }
