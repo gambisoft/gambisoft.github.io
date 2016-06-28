@@ -4,6 +4,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
+
 
 
 
@@ -88,4 +90,7 @@
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 30px;
   color: #102b18;
+}
+#social-buttons2-4 .mbr-header__text {
+  font-family: 'Titillium Web', sans-serif;
 }
