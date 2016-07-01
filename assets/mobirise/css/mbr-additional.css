@@ -1,51 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
 
 
 
-
-#image2-16 SMALL {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  color: #000000;
-}
-#image2-16 P {
-  color: #ffffff;
-}
-#menu-0 .mbr-brand__name {
-  font-size: 16px;
-}
-#menu-0.mbr-navbar--stuck .mbr-navbar__section {
-  background: #ffffff;
-}
-#menu-0 .mbr-navbar__section {
-  background: #ffffff;
-}
-#menu-0 .mbr-navbar__hamburger {
-  color: #7b7878;
-}
-#menu-0 .mbr-navbar__items a {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
-}
-#menu-0 .mbr-brand__name a {
-  font-family: 'Oswald', sans-serif;
-  font-size: 21px;
-}
-#footer1-2 P {
-  text-align: center;
-}
-#social-buttons2-4 .mbr-header__text {
-  font-family: 'Titillium Web', sans-serif;
-}
 
 
 
@@ -67,23 +32,31 @@
   font-size: 16px;
 }
 #menu-12.mbr-navbar--stuck .mbr-navbar__section {
-  background: #ffffff;
+  background: #f5f3f3;
 }
 #menu-12 .mbr-navbar__section {
-  background: #ffffff;
+  background: #f5f3f3;
 }
 #menu-12 .mbr-navbar__hamburger {
-  color: #7b7878;
+  color: #000000;
 }
 #menu-12 .mbr-navbar__items a {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
 }
 #menu-12 .mbr-brand__name a {
   font-family: 'Oswald', sans-serif;
   font-size: 21px;
 }
 #footer1-13 P {
+  text-align: center;
+}
+#header4-25 H1 {
+  color: #000000;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 72px;
+}
+#header4-25 SPAN {
   text-align: center;
 }
 #msg-box4-15 .mbr-header__text {
@@ -197,6 +170,14 @@
 }
 #msg-box4-15 .mbr-header__text SPAN {
   color: #b8312f;
+}
+#gallery1-19 SMALL {
+  text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 19px;
+}
+#header3-20 H3 {
+  font-family: 'Titillium Web', sans-serif;
 }
 #social-buttons2-16 .mbr-header__text {
   font-family: 'Titillium Web', sans-serif;

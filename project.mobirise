@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "inde.html",
     "versionFirst": "2.11.1",
     "versionPublish": "2.11.1",
     "name": "GambiSoft",
@@ -15,7 +15,6 @@
   "pages": {
     "index.html": {
       "settings": {
-        "main": true,
         "title": "GambiSoft",
         "meta_descr": "GambiSoft Corporation - 2016",
         "header_custom": "",
@@ -24,192 +23,24 @@
       },
       "components": [
         {
-          "_name": "image2",
-          "_anchor": "image2-16",
-          "_params": {
-            "outside": false,
-            "showText": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/gambisoft-2-2156x1214-18.png",
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            }
-          },
-          "text": "<p>BEM-VINDO!</p>",
+          "_name": "menu",
           "_styles": {
-            "SMALL": {
-              "text-align": "center",
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#f5f3f3"
+            },
+            ".mbr-navbar__section": {
+              "background": "#f5f3f3"
+            },
+            ".mbr-navbar__hamburger": {
               "color": "#000000"
             },
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        },
-        {
-          "_name": "menu",
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#ffffff"
-            },
-            ".mbr-navbar__section": {
-              "background": "#ffffff"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#7b7878"
-            },
             ".mbr-navbar__items a": {
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
-              "font-size": "20px"
-            },
-            ".mbr-brand__name a": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
-              "font-size": "21px"
-            }
-          },
-          "_anchor": "menu-0",
-          "_params": {
-            "color": "#ffffff",
-            "hamburgerColor": "#7b7878",
-            "transparent": false,
-            "sticky": true,
-            "collapsed": false,
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/gambisoft-338x131-28.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "active": true,
-              "link": "#top",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-gray\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#\">GAMBIMALS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#\">GAMBERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#\">SOBRE</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
-        },
-        {
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": "3",
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#444444",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "GambiSoft Company &nbsp;- 2016 - Todos os direitos reservador (c) &nbsp;"
-        },
-        {
-          "_name": "social-buttons2",
-          "_styles": {
-            ".mbr-header__text": {
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
-            }
-          },
-          "_anchor": "social-buttons2-4",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#f0f0f0",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "FOLLOW US",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/gambisoft\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/gambisoftarts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/102070753361366957615/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCWhQ-4Wa0dGKrztiL7F7RiQ\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/gambisoft/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-android\" title=\"Google Play\" target=\"_blank\" href=\"https://play.google.com/store/apps/developer?id=GambiSoft\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-android\"></i></a>"
-        },
-        {
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-5",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#c1c1c1",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "counters": true,
-            "facebook": true,
-            "google": true,
-            "twitter": true
-          },
-          "text": "SHARE THIS PAGE!"
-        }
-      ]
-    },
-    "games.html": {
-      "settings": {
-        "title": "GambiSoft",
-        "meta_descr": "GambiSoft Corporation - 2016",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_name": "menu",
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#ffffff"
-            },
-            ".mbr-navbar__section": {
-              "background": "#ffffff"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#7b7878"
-            },
-            ".mbr-navbar__items a": {
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
-              "font-size": "20px"
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "18px"
             },
             ".mbr-brand__name a": {
               "font-family": "'Oswald', sans-serif",
@@ -219,8 +50,8 @@
           },
           "_anchor": "menu-12",
           "_params": {
-            "color": "#ffffff",
-            "hamburgerColor": "#7b7878",
+            "color": "#f5f3f3",
+            "hamburgerColor": "#000000",
             "transparent": false,
             "sticky": true,
             "collapsed": false,
@@ -230,7 +61,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/gambisoft-338x131-28.png",
+              "src": "@PROJECT_PATH@/assets/images/gambisoft-2-2549x888-13.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "active": true,
@@ -241,8 +72,8 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-gray\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#\">GAMBIMALS</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#\">GAMBERS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#\">SOBRE</a></li> ",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-15\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html#gallery1-19\">GAMBIMALS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#social-buttons2-16\">SOBRE</a></li> ",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
           "_name": "footer1",
@@ -265,6 +96,45 @@
             "overlayColor": "#444444"
           },
           "text": "GambiSoft Company &nbsp;- 2016 - Todos os direitos reservador (c) &nbsp;"
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "color": "#000000",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "72px"
+            },
+            "SPAN": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header4-25",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/montagem-1-4000x2289-87.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#efefef",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "sdasdf",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -421,16 +291,16 @@
             "paddingBottom": "2",
             "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fundo-copia-2500x1864-42.png",
-            "bgColor": "#f97352",
+            "bgImage": "@PROJECT_PATH@/assets/images/mapa-1314x1280-64.png",
+            "bgColor": "#e1dfd1",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlay": true,
+            "overlayOpacity": "0.9",
+            "overlayColor": "#e1ded1",
             "inverse": false,
             "showTitle": false,
             "showMeta": false,
@@ -458,7 +328,7 @@
           "headerAlign": "left",
           "title": "",
           "meta": "",
-          "text": "<h3><span style=\"font-weight: normal;\">GambiShip Adventure foi desenvolvido como um protótipo desenvolvido à partir de uma ideia de controlar um navio em um jogo a partir de um joystick com um timão e um barco que  se mova em tempo real.</span></h3>",
+          "text": "<h3><span style=\"font-weight: normal;\">GambiShip Adventure foi desenvolvido como um protótipo desenvolvido à partir de uma ideia de controlar um navio em um jogo a partir de um joystick com um timão e um barco que se mova em tempo real.</span></h3>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://www.youtube.com/watch?v=rfacJhGdFQg\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">&nbsp; VIDEO&nbsp;<br></a>"
         },
         {
@@ -597,6 +467,97 @@
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
+          "_name": "gallery1",
+          "_styles": {
+            "SMALL": {
+              "text-align": "center",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "19px"
+            }
+          },
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "images": [
+              {
+                "caption": "GAMBISHEEPIUS OVELHUS<br>",
+                "thumb": "@PROJECT_PATH@/assets/images/gambi-484x500-34-484x500-37.png",
+                "image": "@PROJECT_PATH@/assets/images/gambi-484x500-34.png",
+                "active": false
+              },
+              {
+                "caption": "GAMBISHEEPIUS OVELHUS<br>",
+                "thumb": "@PROJECT_PATH@/assets/images/super-gambi1-484x500-62-484x500-68.png",
+                "image": "@PROJECT_PATH@/assets/images/super-gambi1-484x500-62.png",
+                "active": false
+              },
+              {
+                "caption": "MALEFICUS FOXUS RAPOSUS",
+                "thumb": "@PROJECT_PATH@/assets/images/foxus1-484x500-56-484x500-4.png",
+                "image": "@PROJECT_PATH@/assets/images/foxus1-484x500-56.png",
+                "active": false
+              },
+              {
+                "caption": "CAPTAIN FOXUS",
+                "thumb": "@PROJECT_PATH@/assets/images/foxus-pirata1-484x500-55-484x500-85.png",
+                "image": "@PROJECT_PATH@/assets/images/foxus-pirata1-484x500-55.png",
+                "active": false
+              },
+              {
+                "caption": "CAPIVARIUS ASIATICUS<br>",
+                "thumb": "@PROJECT_PATH@/assets/images/capivarius-484x500-90-484x500-86.png",
+                "image": "@PROJECT_PATH@/assets/images/capivarius-484x500-90.png",
+                "active": false
+              },
+              {
+                "caption": "SHI CAPIVARIUS&nbsp;カピバラ",
+                "thumb": "@PROJECT_PATH@/assets/images/capivarius-1-484x500-77-484x500-38.png",
+                "image": "@PROJECT_PATH@/assets/images/capivarius-1-484x500-77.png",
+                "active": false
+              },
+              {
+                "caption": "TAMANDUAZIS ANTERIUS",
+                "thumb": "@PROJECT_PATH@/assets/images/tamanduazis-484x500-13-484x500-11.png",
+                "image": "@PROJECT_PATH@/assets/images/tamanduazis-484x500-13.png",
+                "active": true
+              },
+              {
+                "caption": "TAMANDUAZIS TEMPLARIUS",
+                "thumb": "@PROJECT_PATH@/assets/images/tamanduazis-guerreiro1-484x500-51-484x500-67.png",
+                "image": "@PROJECT_PATH@/assets/images/tamanduazis-guerreiro1-484x500-51.png",
+                "active": false
+              }
+            ],
+            "showText": true,
+            "bgColor": "#e9e9e9",
+            "fullWidth": true,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-19",
+          "articleLayout": false
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-20",
+          "title": "SOBRE A GAMBISOFT<br>",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "",
+          "_styles": {
+            "H3": {
+              "font-family": "'Titillium Web', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+            }
+          }
+        },
+        {
+          "_name": "content1",
+          "_anchor": "content1-21",
+          "text": ""
+        },
+        {
           "_name": "social-buttons2",
           "_styles": {
             ".mbr-header__text": {
@@ -624,6 +585,12 @@
         },
         {
           "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-size": "19px",
+              "text-align": "right"
+            }
+          },
           "_anchor": "social-buttons1-17",
           "_params": {
             "paddingTop": "1",
@@ -642,13 +609,7 @@
             "google": true,
             "twitter": true
           },
-          "text": "COMPATILHE A GAMBIARRA",
-          "_styles": {
-            ".mbr-header__text": {
-              "font-size": "19px",
-              "text-align": "right"
-            }
-          }
+          "text": "COMPATILHE A GAMBIARRA"
         }
       ]
     }
