@@ -72,7 +72,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-gray\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-15\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html#gallery1-19\">GAMBIMALS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#social-buttons2-16\">SOBRE</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-15\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html#gallery1-19\">GAMBIMALS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box3-13\">SOBRE</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
@@ -541,26 +541,42 @@
           "articleLayout": false
         },
         {
-          "_name": "header3",
           "_styles": {
-            "H3": {
-              "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
-              "font-size": "24px"
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center"
             },
-            "P": {
-              "font-size": "23px",
-              "text-align": "left",
-              "font-family": "'Yanone Kaffeesatz', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700"
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
             }
           },
-          "_anchor": "header3-20",
-          "title": "SOBRE A GAMBISOFT<br>",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-13",
           "_params": {
-            "showMeta": true
+            "showCaption": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showMeta": false,
+            "darkBackground": false
           },
-          "meta": "A GambiSoft é uma desenvolvedora  de games 100% nacional com o objetivo de desenvolver e apresentar novos conceitos de jogos no mercado mundial..&nbsp;Fundada em 2014, a empresa vem desde então buscando elaborar jogos que fazem a diferença no mercado, apresentando conceitos e integrações entre software e hardware diferenciados, focando-se em produções criativas para os jogadores e utilizando a mão de obra de profissionais formados que contribuem com sua expertise para o fortalecimento da indústria nacional de games."
+          "title": "<br>SOBRE A GAMBISOFT",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>A GambiSoft é uma desenvolvedora de games 100% nacional com o objetivo de desenvolver e apresentar novos conceitos de jogos no mercado mundial. Fundada em 2014, a empresa vem desde então buscando elaborar jogos que fazem a diferença no mercado, apresentando conceitos e integrações entre software e hardware diferenciados, focando-se em produções criativas para os jogadores e utilizando a mão de obra de profissionais formados que contribuem com sua expertise para o fortalecimento da indústria nacional de games.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
         },
         {
           "_name": "social-buttons2",
