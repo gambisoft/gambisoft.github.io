@@ -28,6 +28,7 @@
 
 
 
+
 #menu-12 .mbr-brand__name {
   font-size: 16px;
 }
@@ -58,6 +59,9 @@
 }
 #header4-25 SPAN {
   text-align: center;
+}
+#header4-25 P {
+  color: #000000;
 }
 #msg-box4-15 .mbr-header__text {
   color: #4c6972;
@@ -178,6 +182,12 @@
 }
 #header3-20 H3 {
   font-family: 'Titillium Web', sans-serif;
+  font-size: 24px;
+}
+#header3-20 P {
+  font-size: 23px;
+  text-align: left;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 #social-buttons2-16 .mbr-header__text {
   font-family: 'Titillium Web', sans-serif;

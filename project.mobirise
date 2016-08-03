@@ -110,6 +110,9 @@
             },
             "SPAN": {
               "text-align": "center"
+            },
+            "P": {
+              "color": "#000000"
             }
           },
           "_anchor": "header4-25",
@@ -124,15 +127,15 @@
             },
             "bgVideoRadio": false,
             "contentAlign": "center",
-            "overlay": true,
-            "overlayOpacity": "0.6",
+            "overlay": false,
+            "overlayOpacity": "0.1",
             "overlayColor": "#efefef",
             "showTitle": false,
             "showText": false,
             "showButtons": false,
             "showArrow": true
           },
-          "title": "sdasdf",
+          "title": "WELCOME",
           "text": "Create awesome mobile-friendly websites. No coding and free.",
           "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
         },
@@ -539,23 +542,25 @@
         },
         {
           "_name": "header3",
-          "_anchor": "header3-20",
-          "title": "SOBRE A GAMBISOFT<br>",
-          "_params": {
-            "showMeta": false
-          },
-          "meta": "",
           "_styles": {
             "H3": {
               "font-family": "'Titillium Web', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700",
+              "font-size": "24px"
+            },
+            "P": {
+              "font-size": "23px",
+              "text-align": "left",
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700"
             }
-          }
-        },
-        {
-          "_name": "content1",
-          "_anchor": "content1-21",
-          "text": ""
+          },
+          "_anchor": "header3-20",
+          "title": "SOBRE A GAMBISOFT<br>",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "A GambiSoft é uma desenvolvedora  de games 100% nacional com o objetivo de desenvolver e apresentar novos conceitos de jogos no mercado mundial..&nbsp;Fundada em 2014, a empresa vem desde então buscando elaborar jogos que fazem a diferença no mercado, apresentando conceitos e integrações entre software e hardware diferenciados, focando-se em produções criativas para os jogadores e utilizando a mão de obra de profissionais formados que contribuem com sua expertise para o fortalecimento da indústria nacional de games."
         },
         {
           "_name": "social-buttons2",
