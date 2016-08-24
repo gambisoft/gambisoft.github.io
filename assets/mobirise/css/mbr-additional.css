@@ -28,6 +28,7 @@
 
 
 
+
 #menu-12 .mbr-brand__name {
   font-size: 16px;
 }
@@ -108,6 +109,20 @@
 }
 #msg-box4-15 .mbr-article DIV {
   color: #215b32;
+}
+#msg-box4-11 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-article P {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+  color: #faaf40;
 }
 #msg-box4-14 .mbr-header__text {
   color: #000000;
