@@ -269,7 +269,7 @@
           "title": "DRAG AND DROP WEBSITE BUILDER",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Gambout é um jogo arcade a ovelha Gambi a completar &nbsp;nívels de uma aventura baseada no clássico jogo arcade \"Breakout\" com algumas modficações no gameplay que irão te surpreender!</p>",
-          "button": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://play.google.com/store/apps/details?id=br.com.gambisoft.gambout\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://play.google.com/store/apps/details?id=br.com.gambisoft.gambout\" data-toolbar=\"-mbrBtnMove\">VIDEO</a>"
+          "button": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://play.google.com/store/apps/details?id=br.com.gambisoft.gambout\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://www.youtube.com/watch?v=1OAu_SGsn14\" data-toolbar=\"-mbrBtnMove\">VIDEO</a>"
         },
         {
           "_inherit": "msg-box5",
