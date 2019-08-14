@@ -16,7 +16,7 @@
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "siteFonts": [],
-    "uniqCompNum": 9
+    "uniqCompNum": 4
   },
   "pages": {
     "index.html": {
@@ -431,7 +431,7 @@
           "headerAlign": "left",
           "title": "",
           "meta": "",
-          "text": "<h3><span style=\"font-weight: normal;\">GambiShip Adventure foi elaborado como um protótipo desenvolvido com a ideia de controlar um navio em um jogo a partir de um joystick com um timão e um barco que se mova em tempo real.</span></h3>",
+          "text": "<h3><span style=\"font-weight: normal;\">GambiShip Adventure foi elaborado como um protótipo desenvolvido à partir de uma ideia de controlar um navio em um jogo a partir de um joystick com um timão e um barco que se mova em tempo real.</span></h3>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=rfacJhGdFQg\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">&nbsp; VIDEO&nbsp;<br></a>"
         },
         {
@@ -505,39 +505,6 @@
           },
           "_anchor": "gallery1-19",
           "articleLayout": false
-        },
-        {
-          "_params": {
-            "token": "3250822672.727bfe1.b82c2a6c36e24ece85cf223519f36549",
-            "showTitle": false,
-            "layoutGridRadio": true,
-            "imagesPerRowGrid": "4",
-            "rows": 2,
-            "showMoreButton": true,
-            "layoutSliderRadio": false,
-            "imagesPerRowSlider": "4",
-            "spacing": "9",
-            "fullWidth": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
-            "overlay": false,
-            "overlayColor": "#efefef",
-            "overlayOpacity": 0.6
-          },
-          "title": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-danger\" href=\"#\" data-max-id=\"1876850399077923154_3250822672\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
-          "display2": "display-2",
-          "display4": "display-4",
-          "alias": "instagram-feed",
-          "_tags": [
-            "Extesões"
-          ],
-          "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-4"
         },
         {
           "_styles": {

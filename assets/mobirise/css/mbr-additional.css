@@ -1,12 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
-@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700);
 
 
@@ -27,9 +25,20 @@
 
 
 
-
-
-
+#msg-box4-11 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-article P {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 24px;
+  color: #faaf40;
+}
 #menu-12 .mbr-brand__name {
   font-size: 16px;
 }
@@ -40,7 +49,7 @@
   background: #f5f3f3;
 }
 #menu-12 .mbr-navbar__hamburger {
-  color: #000000;
+  color: #7c706b;
 }
 #menu-12 .mbr-navbar__items a {
   font-family: 'Lato', sans-serif;
@@ -52,17 +61,6 @@
 }
 #footer1-13 P {
   text-align: center;
-}
-#header4-25 H1 {
-  color: #000000;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 72px;
-}
-#header4-25 SPAN {
-  text-align: center;
-}
-#header4-25 P {
-  color: #000000;
 }
 #msg-box4-13 .mbr-header__text {
   color: #ffffff;
@@ -77,20 +75,6 @@
   color: #4c6972;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 24px;
-}
-#msg-box4-11 .mbr-header__text {
-  color: #ffffff;
-}
-#msg-box4-11 .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-11 .mbr-article {
-  color: #ffffff;
-}
-#msg-box4-11 .mbr-article P {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 24px;
-  color: #faaf40;
 }
 #msg-box4-15 .mbr-header__text {
   color: #4c6972;
@@ -172,37 +156,6 @@
 #msg-box4-14 .mbr-article H3 {
   font-size: 25px;
   color: #541d1c;
-}
-#msg-box4-14 .mbr-header__text {
-  color: #43331e;
-  font-size: 30px;
-}
-#msg-box4-14 .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-14 .mbr-article {
-  color: #ffffff;
-}
-#msg-box4-14 .mbr-article P {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 25px;
-}
-#msg-box4-15 .mbr-header__text {
-  color: #541d1c;
-  font-family: 'Roboto Slab', serif;
-}
-#msg-box4-15 .mbr-header__subtext {
-  color: #b8312f;
-  font-size: 17px;
-}
-#msg-box4-15 .mbr-article {
-  color: #ffffff;
-}
-#msg-box4-15 .mbr-article P {
-  color: #b8312f;
-}
-#msg-box4-15 .mbr-header__text SPAN {
-  color: #b8312f;
 }
 #gallery1-19 SMALL {
   text-align: center;

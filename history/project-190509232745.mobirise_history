@@ -1,22 +1,16 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "inde.html",
     "versionFirst": "2.11.1",
-    "versionPublish": "4.10.7",
+    "versionPublish": "2.11.1",
     "name": "GambiSoft",
     "theme": {
       "name": "default",
-      "title": "Mobirise",
-      "styling": {},
-      "additionalSetColors": []
+      "title": "Mobirise"
     },
     "favicon": "@PROJECT_PATH@/assets/images/clips-2-copia-630x630-16.jpg",
     "publishType": "local",
-    "publishPath": "file:///C:/Users/GermanoLoosdeCarvalh/Documents/Projetos/gambisoft.github.io",
-    "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png",
-    "siteFonts": [],
-    "uniqCompNum": 9
+    "publishPath": "file:///C:/Users/germano.WDEV/Documents/GitHub/gambisoft.github.io"
   },
   "pages": {
     "index.html": {
@@ -28,73 +22,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "_inherit": "msg-box5",
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            },
-            ".mbr-article P": {
-              "font-family": "'Yanone Kaffeesatz', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
-              "font-size": "24px",
-              "color": "#faaf40"
-            }
-          },
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-11",
-          "_params": {
-            "showTitle": false,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": "3",
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/galaxy-1920x1200-79.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#f97352",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/gambout-official-2080x1479-62.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            }
-          },
-          "headerAlign": "left",
-          "title": "DRAG AND DROP WEBSITE BUILDER",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Gambout é um jogo arcade a ovelha Gambi a completar &nbsp;nívels de uma aventura baseada no clássico jogo arcade \"Breakout\" com algumas modficações no gameplay que irão te surpreender!</p>",
-          "button": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://play.google.com/store/apps/details?id=br.com.gambisoft.gambout\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://www.youtube.com/watch?v=1OAu_SGsn14\" data-toolbar=\"-mbrBtnMove\">VIDEO</a>"
-        },
         {
           "_name": "menu",
           "_styles": {
@@ -108,7 +35,7 @@
               "background": "#f5f3f3"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#7c706b"
+              "color": "#000000"
             },
             ".mbr-navbar__items a": {
               "font-family": "'Lato', sans-serif",
@@ -123,14 +50,14 @@
           },
           "_anchor": "menu-12",
           "_params": {
-            "logo": true,
-            "showBrand": false,
-            "showButtons": false,
+            "color": "#f5f3f3",
+            "hamburgerColor": "#000000",
+            "transparent": false,
             "sticky": true,
             "collapsed": false,
-            "transparent": false,
-            "color": "#f5f3f3",
-            "hamburgerColor": "#7c706b"
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false
           },
           "logo": {
             "image": {
@@ -145,7 +72,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-gray\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
-          "items": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-13\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html#gallery1-19\">GAMBIMALS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box3-13\">SOBRE</a></li> ",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-13\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html#gallery1-19\">GAMBIMALS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box3-13\">SOBRE</a></li> ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
@@ -160,15 +87,57 @@
             "paddingTop": "3",
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#444444",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
           },
-          "text": "GambiSoft Company &nbsp;- 2019 - Todos os direitos reservados (c) &nbsp;"
+          "text": "GambiSoft Company &nbsp;- 2017 - Todos os direitos reservados (c) &nbsp;"
+        },
+        {
+          "_inherit": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "color": "#000000",
+              "font-family": "'PT Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans:400,700",
+              "font-size": "72px"
+            },
+            "SPAN": {
+              "text-align": "center"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "header4-25",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/montagem-1-4000x2289-87.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": false,
+            "overlayOpacity": "0.1",
+            "overlayColor": "#efefef",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "WELCOME",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -192,26 +161,25 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-13",
           "_params": {
-            "showTitle": false,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/back-site-1280x720-15.png",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/back-site-1280x720-15.png",
             "bgColor": "#f97352",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "inverse": false,
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
           },
           "media": {
             "image": {
@@ -236,6 +204,72 @@
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p><b>Gamballoon é um game projetado para testar suas habilidades e reflexos.</b></p><p><b>Venha ajudar nossa Gambá Hélio a coletar as notas corretas na sua tablatura para não desafinar a música.</b></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-success\" href=\"https://play.google.com/store/apps/details?id=br.com.gambisoft.gamballoon\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "24px",
+              "color": "#faaf40"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-11",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/galaxy-1920x1200-79.jpg",
+            "bgColor": "#f97352",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/gambout-official-2080x1479-62.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "DRAG AND DROP WEBSITE BUILDER",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Gambout é um jogo arcade a ovelha Gambi a completar &nbsp;nívels de uma aventura baseada no clássico jogo arcade \"Breakout\" com algumas modficações no gameplay que irão te surpreender!</p>",
+          "button": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://play.google.com/store/apps/details?id=br.com.gambisoft.gambout\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://www.youtube.com/watch?v=1OAu_SGsn14\" data-toolbar=\"-mbrBtnMove\">VIDEO</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -298,26 +332,25 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-15",
           "_params": {
-            "showTitle": false,
-            "showMeta": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
             "paddingTop": "1",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/garden-1920x1266-59.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/garden-1920x1266-59.jpg",
             "bgColor": "#f97352",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.2",
             "overlayColor": "#efefef",
-            "overlayOpacity": "0.2"
+            "inverse": false,
+            "showTitle": false,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": true
           },
           "media": {
             "image": {
@@ -389,26 +422,25 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-14",
           "_params": {
-            "showTitle": false,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mapa-1314x1280-64.png",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mapa-1314x1280-64.png",
             "bgColor": "#e1dfd1",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.9",
             "overlayColor": "#e1ded1",
-            "overlayOpacity": "0.9"
+            "inverse": false,
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true
           },
           "media": {
             "image": {
@@ -431,8 +463,143 @@
           "headerAlign": "left",
           "title": "",
           "meta": "",
-          "text": "<h3><span style=\"font-weight: normal;\">GambiShip Adventure foi elaborado como um protótipo desenvolvido com a ideia de controlar um navio em um jogo a partir de um joystick com um timão e um barco que se mova em tempo real.</span></h3>",
+          "text": "<h3><span style=\"font-weight: normal;\">GambiShip Adventure foi elaborado como um protótipo desenvolvido à partir de uma ideia de controlar um navio em um jogo a partir de um joystick com um timão e um barco que se mova em tempo real.</span></h3>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary\" href=\"https://www.youtube.com/watch?v=rfacJhGdFQg\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">&nbsp; VIDEO&nbsp;<br></a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#43331e",
+              "font-size": "30px"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-family": "'Yanone Kaffeesatz', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,700",
+              "font-size": "25px"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-14",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/background-5000x2813-86.png",
+            "bgColor": "#f97352",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/frontground-copia-4072x1616-34.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "DRIFT",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Aceite os desafios sobre rodas e demonstre sua habilidade em Drift.</p><p>Aqui voc\bê terá um playground completo para &nbsp;fazer suas manobras e desafiar seus amiguinhos.</p><p>Em breve na GambiStore para PC, Android e iOS</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"#\" data-toolbar=\"-mbrBtnMove\">WATCH NOW<br></a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#541d1c",
+              "font-family": "'Roboto Slab', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700"
+            },
+            ".mbr-header__subtext": {
+              "color": "#b8312f",
+              "font-size": "17px"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#b8312f"
+            },
+            ".mbr-header__text SPAN": {
+              "color": "#b8312f"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-15",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": false,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/gambo-1960x706-30.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "<span style=\"font-weight: normal;\">GAMBO</span>",
+          "meta": "The Master of Popcorn Machine",
+          "text": "<p>Gambo (GambiSheepius Ovelhus) é um veterano da Guerra da sua fazenda e é preso injustamente pelo xerife Feasle (Foxus Raposus), mas consegue fugir e promove uma guerra não só contra o policial mas contra toda uma floresta, causando pânico, destruição e atirando pipocas, que é o que ele sabe fazer de melhor.</p><p>Em breve na GambiStore para PC</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
           "_name": "gallery1",
@@ -445,13 +612,8 @@
             }
           },
           "_params": {
-            "fullWidth": true,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "noGutter": false,
-            "showText": true,
-            "showBullets": true,
-            "bgColor": "#e9e9e9",
             "images": [
               {
                 "caption": "GAMBISHEEPIUS OVELHUS<br>",
@@ -501,43 +663,14 @@
                 "image": "@PROJECT_PATH@/assets/images/tamanduazis-guerreiro1-484x500-51.png",
                 "active": false
               }
-            ]
+            ],
+            "showText": true,
+            "bgColor": "#e9e9e9",
+            "fullWidth": true,
+            "noGutter": false
           },
           "_anchor": "gallery1-19",
           "articleLayout": false
-        },
-        {
-          "_params": {
-            "token": "3250822672.727bfe1.b82c2a6c36e24ece85cf223519f36549",
-            "showTitle": false,
-            "layoutGridRadio": true,
-            "imagesPerRowGrid": "4",
-            "rows": 2,
-            "showMoreButton": true,
-            "layoutSliderRadio": false,
-            "imagesPerRowSlider": "4",
-            "spacing": "9",
-            "fullWidth": false,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgImageRadio": false,
-            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
-            "overlay": false,
-            "overlayColor": "#efefef",
-            "overlayOpacity": 0.6
-          },
-          "title": "",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-danger\" href=\"#\" data-max-id=\"1876850399077923154_3250822672\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
-          "display2": "display-2",
-          "display4": "display-4",
-          "alias": "instagram-feed",
-          "_tags": [
-            "Extesões"
-          ],
-          "_name": "instagram-feed-block",
-          "_anchor": "instagram-feed-block-4"
         },
         {
           "_styles": {
@@ -551,26 +684,26 @@
           "_name": "msg-box3",
           "_anchor": "msg-box3-13",
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
             "showCaption": true,
-            "showText": true,
-            "showButton": false,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#fff",
-            "bgVideoRadio": false,
+            "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "darkBackground": false,
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": false,
+            "darkBackground": false
           },
           "title": "<br>SOBRE A GAMBISOFT",
           "meta": "By John Smith posted July 30, 2015",
@@ -592,16 +725,16 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#f0f0f0",
+            "bgColorRadio": true,
             "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
           },
           "text": "GAMBIARRAS SOCIAIS",
-          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/gambisoft\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/gambisoftarts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCWhQ-4Wa0dGKrztiL7F7RiQ\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/gambisoft/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-android\" title=\"Google Play\" target=\"_blank\" href=\"https://play.google.com/store/apps/developer?id=GambiSoft\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-android\"></i></a>"
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/gambisoft\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/gambisoftarts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/102070753361366957615/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCWhQ-4Wa0dGKrztiL7F7RiQ\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://www.instagram.com/gambisoft/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-android\" title=\"Google Play\" target=\"_blank\" href=\"https://play.google.com/store/apps/developer?id=GambiSoft\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-android\"></i></a>"
         },
         {
           "_name": "social-buttons1",
@@ -615,17 +748,17 @@
           },
           "_anchor": "social-buttons1-17",
           "_params": {
-            "inverse": false,
             "paddingTop": "1",
             "paddingBottom": "0",
             "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "images/bg3.jpg",
             "bgColor": "#c1c1c1",
+            "bgColorRadio": true,
             "overlay": false,
-            "overlayColor": "#222",
             "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
             "counters": true,
             "facebook": true,
             "google": true,
