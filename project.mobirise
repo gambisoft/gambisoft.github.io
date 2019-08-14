@@ -11,8 +11,6 @@
       "additionalSetColors": []
     },
     "favicon": "@PROJECT_PATH@/assets/images/clips-2-copia-630x630-16.jpg",
-    "publishType": "local",
-    "publishPath": "file:///C:/Users/GermanoLoosdeCarvalh/Documents/Projetos/gambisoft.github.io",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "siteFonts": [],
@@ -134,18 +132,17 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/gambisoft-2-2549x888-13.png",
+              "src": "@PROJECT_PATH@/assets/images/gambisoft-338x131-28-330x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "active": true,
               "link": "#top",
               "alt": "",
-              "title": "",
-              "linkInNewWindow": false
+              "title": ""
             }
           },
           "brand": "<a class=\"mbr-brand__name text-gray\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
-          "items": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box4-13\">GAMES</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html#gallery1-19\">GAMBIMALS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box3-13\">SOBRE</a></li> ",
+          "items": " <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"games.html#gallery1-19\">GAMBIMALS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-gray\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#msg-box3-13\">SOBRE</a></li>  ",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-primary\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
